@@ -1,5 +1,4 @@
 
-
  html {
    background-color: #00528a;
 
@@ -18,16 +17,27 @@
     to { background-position: 100% 0; }
  }
 
+ .scout  {
+   position: absolute;
+   bottom: -1em;
+ }
+
+
  #animate-area   {
-     width: 100vw;
-     height: 100vw;
+     width: 100%;
+     height: 100%;
      background-image: url('images/social_canada.jpg');
      background-position: 0px 0px;
      background-repeat: repeat-x;
      animation: animatedBackground 130s linear infinite;
+     overflow: hidden;
  }
 
+ /*#demo-canvas {
+   background: url("images/scout_canada.gif") no-repeat center center;
+   background-position: bottom;
 
+ }*/
 
    .image {
       width: 100%;
@@ -47,7 +57,7 @@
      position: absolute;
      position: absolute;
      width: 8em;
-     top: 0.6em;
+     bottom: : 0.6em;
      right: 0em;
    }
 
@@ -244,13 +254,18 @@
    margin-top:-480px;  /* your iframe height */
 }
 
-  @media screen and (min-width: 416px) {
+  /*@media screen and (min-width: 416px) {*/
     .image {
        width: 100%;
        text-align: center;
        background-color: #00528a;
     }
 
+
+    .scout  {
+      position: absolute;
+      bottom: -1em;
+    }
 
     .fox {
       width: 100%;
@@ -259,13 +274,15 @@
       position: relative;
       top: 0;
     }
+
     .gif {
       position: absolute;
       position: absolute;
       width: 8em;
-      top: 0.6em;
+      bottom: : 0.6em;
       right: 0em;
     }
+
 
     .reverse_gif {
       position: absolute;
@@ -353,7 +370,7 @@
      font-size: 24px;
    }
 }
-  @media screen and (max-width: 415px) {
+  /*@media screen and (max-width: 415px) {*/
 
   .main_header {
     display: none;
@@ -376,10 +393,10 @@
 
   .gif {
     position: absolute;
-    width: 3.5em;
-    height: 3.5em;
-    top: 1.5em;
-    right: 1em;
+    position: absolute;
+    width: 8em;
+    bottom: : 0.6em;
+    right: 0em;
   }
 
   .reverse_gif {
@@ -406,7 +423,7 @@
   .update h3 {
     color: #ff9300;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 2.5em;
     font-family: 'Spicy Rice', cursive;
     padding: 30px;
     background-color: rgba(0, 74, 146, 0.08);
@@ -415,14 +432,6 @@
   }
 
 
-
-  .update {
-    color: #00528a;
-    text-align: left;
-    font-size: 23px;
-    font-family: Arial, cursive;
-    padding: 30px;
-  }
 
 
   .question {
@@ -621,8 +630,14 @@ video {
 
 .play {
   text-align: center;
+
   font-size: 2em;
   font-weight: bold;
   color: #00528a;
   margin-top: 15px;
+}
+
+.scout  {
+  position: absolute;
+  bottom: -1em;
 }

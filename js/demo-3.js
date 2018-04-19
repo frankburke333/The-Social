@@ -1,7 +1,7 @@
 (function() {
 
     var width, height, largeHeader, canvas, ctx, triangles, target, animateHeader = true;
-    var colors = ['255,255,255', '255,255,255','255,255,255','255,255,255'];
+    var colors = [];
 
     // Main
     initHeader();
@@ -23,8 +23,8 @@
 
         // create particles
         triangles = [];
-        for(var x = 0; x < 480; x++) {
-            addTriangle(x*5);
+        for(var x = 0; x < 0; x++) {
+            addTriangle(x*0);
         }
     }
 
@@ -42,8 +42,8 @@
 
     function tweenTriangle(tri) {
         var t = Math.random()*(2*Math.PI);
-        var x = (200+Math.random()*600)*Math.cos(t) + width*0.5;
-        var y = (200+Math.random()*600)*Math.sin(t) + height*0.5+20;
+        var x = (00+Math.random()*00)*Math.cos(t) + width*0;
+        var y = (00+Math.random()*00)*Math.sin(t) + height*0;
         var time = 4-5*Math.random();
 
         TweenLite.to(tri.pos, time, {x: x,

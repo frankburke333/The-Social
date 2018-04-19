@@ -19,7 +19,8 @@
 
  .scout  {
    position: absolute;
-   bottom: -1em;
+   bottom: 9px;
+   margin-left: 22em;
  }
 
 
@@ -31,6 +32,7 @@
      background-repeat: repeat-x;
      animation: animatedBackground 130s linear infinite;
      overflow: hidden;
+     position: relative;
  }
 
  /*#demo-canvas {
@@ -77,9 +79,10 @@
      font-family: 'Rancho', helvetica, cursive;
      color: #f7a31c;
      text-align: center;
-     font-size: 8em;
+     font-size: 9em;
      background-color: none;
      margin: 0px;
+
    }
 
    .main_header h1{
@@ -264,7 +267,8 @@
 
     .scout  {
       position: absolute;
-      bottom: -1em;
+      bottom: 9px;
+      margin-left: 25em;
     }
 
     .fox {
@@ -611,7 +615,7 @@ a {
 }
 
 img.jack {
-  width: 5em;
+  width: 6em;
   margin-left: 44%;
 }
 
@@ -639,5 +643,14 @@ video {
 
 .scout  {
   position: absolute;
-  bottom: -1em;
+  bottom: 9px;
+  margin-left: 22em;
+}
+
+.april {
+  font-size: .86em;
+}
+
+.vid_1 {
+  text-align: center;
 }

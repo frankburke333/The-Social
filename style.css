@@ -27,7 +27,7 @@
  .scout  {
    position: absolute;
    bottom: 0;
-   margin-left: 22em;
+   margin-left: 33%;
  }
 
 
@@ -37,7 +37,7 @@
      background-image: url('images/social_canada.jpg');
      background-position: center center;
      background-repeat: repeat-x;
-     animation: animatedBackground 130s linear infinite;
+     animation: animatedBackground 100s linear infinite;
      background-size: cover;
      overflow: hidden;
      position: relative;
@@ -124,7 +124,7 @@
    .update h3 {
      color: #f87c20;
      text-align: center;
-     font-size: 85px;
+     font-size: 2.1em;
      font-family: 'Spicy Rice', cursive;
      padding: 28px;
      border: solid #00528a 5px;
@@ -271,7 +271,7 @@
     .scout  {
       position: absolute;
       bottom: 0;
-      margin-left: 22em;
+      margin-left: 33%;
     }
 
     .fox {
@@ -414,9 +414,7 @@
   }
 
 
-  .six {
-    display: none;
-  }
+
 
   .six_small {
     color: #00528a;
@@ -526,7 +524,6 @@ div.tab button.active {
 
 /* Style the tab content */
 .tabcontent {
-    display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
@@ -624,6 +621,7 @@ img.jack {
 .friends {
   text-align: center;
   color: red;
+  font-size: .79em;
 }
 
 .bold {
@@ -646,7 +644,7 @@ video {
 .scout  {
   position: absolute;
   bottom: 0;
-  margin-left: 22em;
+  margin-left: 33%;
 }
 
 .april {
@@ -655,4 +653,10 @@ video {
 
 .vid_1 {
   text-align: center;
+}
+
+.glassdoor {
+margin-left: 10%;
+border: solid .2em #0ea940;
+
 }
